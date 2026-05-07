@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# AzurePlay Blog Admin Panel
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Локальный редактор JSON-файлов. Позволяет работать с данными в виде таблиц с drag-and-drop, редактировать вложенные массивы и переключаться на сырой JSON.
 
-## Available Scripts
+## Возможности
 
-In the project directory, you can run:
+- **Открытие папки с JSON** через File System Access API (Chrome / Edge)
+- **Табличный редактор** для массивов объектов:
+  - Drag & Drop строк
+  - Редактирование ячеек двойным кликом с сохранением `\n`  
+  - Кнопка удаления строки
+  - Автоматический пересчёт `id` после перемещения/удаления (только числовых)
+- **Поддержка вложенных массивов** объектов – открываются в модальном окне с аналогичным табличным редактором или как JSON.
+- **Режим сырого JSON** с Monaco Editor и ручным изменением размера окна.
+- **Тёмная тема** Bootstrap 5 с переключением.
+- **Экспорт** всех файлов в ZIP для загрузки на сайт.
+- **Алфавитная сортировка** файлов в боковой панели.
 
-### `npm start`
+## Технологии
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React 18 (Create React App)
+- React Bootstrap
+- @monaco-editor/react
+- @hello-pangea/dnd (Drag & Drop)
+- JSZip + file-saver (экспорт)
+- File System Access API
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Установка и запуск
 
-### `npm test`
+```bash
+git clone https://github.com/AzureLinker/azureplay-blog-adminpanel.git
+cd azureplay-blog-adminpanel
+npm install
+npm start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Открой `http://localhost:3000`
 
-### `npm run build`
+## Использование
+Нажми «Открыть папку с JSON» и выбери директорию с json файлами.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+В левой панели появятся все `.json` файлы. Выбери нужный.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Для массивов объектов откроется табличный редактор с возможностью перетаскивать строки, редактировать ячейки, удалять и добавлять записи.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Нажми «Таблица» / «JSON» для переключения режима.
 
-### `npm run eject`
+Внеся изменения, нажми «Сохранить файл» – данные запишутся обратно на диск.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Чтобы выгрузить все файлы разом, нажми «Экспорт ZIP».
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Примечания
+File System Access API работает только в Chromium-браузерах (Chrome, Edge, Opera). В Firefox или Safari понадобится использовать локальный сервер с файловыми операциями (не включено).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+При перетаскивании и удалении элементов числовое поле id автоматически пересчитывается (начиная с 1 для каждого элемента). Строковые идентификаторы остаются без изменений.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Вложенные массивы объектов (например, links) редактируются через кнопку ✎ в ячейке, открывающую модальное окно с таблицей или текстовым редактором.
 
-## Learn More
+MIT © ZianU
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Скриншоты
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Табличный редактор](https://zianu-azureplay.neocities.org/img/projects/proj/chrome_wbnBgzGm5o-compressed.png)
+![Редактор сырого json](https://zianu-azureplay.neocities.org/img/projects/proj/chrome_WVy6Yg97aO-compressed.png)
+![Редактор массивов внутри одного объекта](https://zianu-azureplay.neocities.org/img/projects/proj/chrome_VWNBAHKJ5S-compressed.png)

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <circle cx="60" cy="60" r="56" fill="#208fed" />
+  <!-- Левая скобка -->
+  <path d="M36 32 L27 40 L27 80 L36 88" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Правая скобка -->
+  <path d="M84 32 L93 40 L93 80 L84 88" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Шестерёнка (зубья + тело) -->
+  <g transform="translate(60 60)">
+    <circle cx="0" cy="0" r="18" fill="#208fed" stroke="#c0c0c0" stroke-width="4" />
+    <path d="M-4 -22 L4 -22 L4 -14 L-4 -14 Z" fill="#c0c0c0" transform="rotate(0) translate(0 -2)" />
+    <path d="M-4 -22 L4 -22 L4 -14 L-4 -14 Z" fill="#c0c0c0" transform="rotate(45) translate(0 -2)" />
+    <path d="M-4 -22 L4 -22 L4 -14 L-4 -14 Z" fill="#c0c0c0" transform="rotate(90) translate(0 -2)" />
+    <path d="M-4 -22 L4 -22 L4 -14 L-4 -14 Z" fill="#c0c0c0" transform="rotate(135) translate(0 -2)" />
+    <path d="M-4 -22 L4 -22 L4 -14 L-4 -14 Z" fill="#c0c0c0" transform="rotate(180) translate(0 -2)" />
+    <path d="M-4 -22 L4 -22 L4 -14 L-4 -14 Z" fill="#c0c0c0" transform="rotate(225) translate(0 -2)" />
+    <path d="M-4 -22 L4 -22 L4 -14 L-4 -14 Z" fill="#c0c0c0" transform="rotate(270) translate(0 -2)" />
+    <path d="M-4 -22 L4 -22 L4 -14 L-4 -14 Z" fill="#c0c0c0" transform="rotate(315) translate(0 -2)" />
+    <circle cx="0" cy="0" r="8" fill="#c0c0c0" />
+  </g>
+  <!-- Текст JSON -->
+  <text x="60" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="16" fill="#fff" letter-spacing="2">JSON</text>
+</svg>
