@@ -147,6 +147,85 @@ const addItem = useCallback((fileName, template = {}) => {
   });
 }, []);
 
+const duplicateItem = useCallback((fileName, index) => {
+  setParsedData(prev => {
+    const next = new Map(prev);
+    const arr = [...(next.get(fileName) || [])];
+    if (index < 0 || index >= arr.length) return prev;
+
+    // Глубокое клонирование элемента
+    const original = JSON.parse(JSON.stringify(arr[index]));
+
+    // Генерация нового id, если поле существует
+    if (original.hasOwnProperty(ID_FIELD)) {
+      const lastItem = arr[arr.length - 1];
+      const lastId = lastItem?.[ID_FIELD];
+      if (typeof lastId === 'number') {
+        original[ID_FIELD] = lastId + 1;
+      } else if (typeof lastId === 'string') {
+        const match = String(lastId).match(/(\d+)$/);
+        if (match) {
+          const num = parseInt(match[1], 10) + 1;
+          original[ID_FIELD] = lastId.slice(0, -match[1].length) + num;
+        } else {
+          original[ID_FIELD] = String(arr.length + 1);
+        }
+      }
+    }
+
+    // Вставляем после исходного
+    arr.splice(index + 1, 0, original);
+    next.set(fileName, arr);
+    return next;
+  });
+}, []);
+
+const createNewFile = useCallback(async (fileName, initialContent = '[]') => {
+  if (!dirHandle) return;
+  try {
+    // Убедимся, что строка валидный JSON
+    JSON.parse(initialContent);
+    await writeFile(dirHandle, fileName, initialContent);
+
+    setFileContents(prev => {
+      const next = new Map(prev);
+      next.set(fileName, initialContent);
+      return next;
+    });
+    setParsedData(prev => {
+      const next = new Map(prev);
+      next.set(fileName, JSON.parse(initialContent));
+      return next;
+    });
+    setError(null);
+  } catch (e) {
+    setError('Ошибка создания файла: ' + e.message);
+  }
+}, [dirHandle]);
+
+const deleteFile = useCallback(async (fileName) => {
+  if (!dirHandle) return;
+  try {
+    await dirHandle.removeEntry(fileName);
+    setFileContents(prev => {
+      const next = new Map(prev);
+      next.delete(fileName);
+      return next;
+    });
+    setParsedData(prev => {
+      const next = new Map(prev);
+      next.delete(fileName);
+      return next;
+    });
+    if (selectedFile === fileName) {
+      setSelectedFile(null);
+    }
+    setError(null);
+  } catch (e) {
+    setError('Ошибка удаления: ' + e.message);
+  }
+}, [dirHandle, selectedFile]);
+
   // Сохранение файла на диск
   const saveCurrentFile = useCallback(async () => {
     if (!dirHandle || !selectedFile) return;
@@ -205,5 +284,9 @@ const saveRawFile = useCallback(async (fileName, rawContent) => {
     addItem,
     saveCurrentFile,
     saveRawFile,
+    createNewFile,    
+    dirHandle,
+    duplicateItem,
+    deleteFile,
   };
 }

@@ -7,12 +7,13 @@ export default function JsonEditor({ value, onChange, isDark, height = '100%' })
 
   const handleEditorDidMount = (editor) => {
     editorRef.current = editor;
+    editor.layout(); // первичная корректировка
   };
 
   useEffect(() => {
     if (!containerRef.current) return;
     const observer = new ResizeObserver(() => {
-      // отложенный вызов layout, чтобы избежать петли уведомлений
+      // requestAnimationFrame предотвращает петлю уведомлений
       requestAnimationFrame(() => {
         editorRef.current?.layout();
       });
@@ -22,7 +23,7 @@ export default function JsonEditor({ value, onChange, isDark, height = '100%' })
   }, []);
 
   return (
-    <div ref={containerRef} style={{ height: '100%', width: '100%' }}>
+    <div ref={containerRef} style={{ width: '100%', height: '100%' }}>
       <Editor
         height={height}
         defaultLanguage="json"
@@ -33,7 +34,7 @@ export default function JsonEditor({ value, onChange, isDark, height = '100%' })
         options={{
           minimap: { enabled: false },
           fontSize: 14,
-          automaticLayout: false, // отключаем встроенный, будет наш
+          automaticLayout: false,
         }}
       />
     </div>

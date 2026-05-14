@@ -1,6 +1,6 @@
-import { ListGroup } from 'react-bootstrap';
+import { ListGroup, Button } from 'react-bootstrap';
 
-export default function FileList({ files, selected, onSelect }) {
+export default function FileList({ files, selected, onSelect, onDeleteFile }) {
   const sortedFiles = Array.from(files.keys()).sort((a, b) => a.localeCompare(b));
 
   return (
@@ -11,10 +11,20 @@ export default function FileList({ files, selected, onSelect }) {
           action
           active={name === selected}
           onClick={() => onSelect(name)}
-          className="text-truncate"
-          style={{ maxWidth: '100%' }}
+          className="d-flex justify-content-between align-items-center text-truncate"
         >
-          {name}
+          <span className="text-truncate">{name}</span>
+          <Button
+            variant="outline-danger"
+            size="sm"
+            onClick={(e) => {
+              e.stopPropagation();
+              onDeleteFile(name);
+            }}
+            className="ms-2 flex-shrink-0"
+          >
+            🗑
+          </Button>
         </ListGroup.Item>
       ))}
     </ListGroup>
