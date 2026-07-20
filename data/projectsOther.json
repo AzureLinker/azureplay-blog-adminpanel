@@ -1,0 +1,24 @@
+[
+  {
+    "id": "azureplay_admin_panel",
+    "title": "Редактор JSON файлов для сайта",
+    "type": "GitHub проект",
+    "status": "Вышло",
+    "version": "v1.1.0",
+    "links": [
+      {
+        "link_id": 1,
+        "link_title": "Страница на GitHub",
+        "link_path": "https://github.com/AzureLinker/azureplay-blog-adminpanel"
+      }
+    ],
+    "authors": [
+      "ZianU"
+    ],
+    "date_added": "2026-05-07",
+    "date_last_update": "2026-05-14",
+    "comment": "Локальный редактор JSON-файлов. Позволяет работать с данными в виде таблиц с drag-and-drop, редактировать вложенные массивы и переключаться на сырой JSON.",
+    "cover": "https://zianu-azureplay.neocities.org/img/projects/proj/chrome_WVy6Yg97aO-compressed.png",
+    "mdPath": "azureplay_admin_panel.md"
+  }
+]

@@ -4,7 +4,9 @@ import {
   readJsonFilesFromDirectory,
   writeFile,
   isFileSystemAccessSupported,
-} from '../utils/fileSystem';
+  createFileRequest,
+  deleteFileRequest,
+} from '../utils/api';
 
 // В начале хука:
 const ID_FIELD = 'id'; // <-- смени, если у тебя другое имя поля
@@ -22,7 +24,6 @@ const recalcIdsIfNumeric = (arr) => {
 };
 
 export function useFileManager() {
-  const [dirHandle, setDirHandle] = useState(null);
   const [fileContents, setFileContents] = useState(new Map());   // сырые строки
   const [parsedData, setParsedData] = useState(new Map());        // Map<fileName, any>
   const [selectedFile, setSelectedFile] = useState(null);
@@ -30,28 +31,25 @@ export function useFileManager() {
 
   // Загрузка директории
   const openDir = useCallback(async () => {
-    try {
-      const handle = await openDirectory();
-      const jsonFiles = await readJsonFilesFromDirectory(handle);
-      setDirHandle(handle);
-      setFileContents(jsonFiles);
-
-      // Парсим каждый файл
-      const parsed = new Map();
-      for (const [name, content] of jsonFiles) {
-        try {
-          parsed.set(name, JSON.parse(content));
-        } catch {
-          parsed.set(name, content); // оставляем как есть, если не валидный JSON
-        }
+  try {
+    await openDirectory(); // теперь это заглушка
+    const jsonFiles = await readJsonFilesFromDirectory();
+    setFileContents(jsonFiles);
+    const parsed = new Map();
+    for (const [name, content] of jsonFiles) {
+      try {
+        parsed.set(name, JSON.parse(content));
+      } catch {
+        parsed.set(name, content);
       }
-      setParsedData(parsed);
-      setSelectedFile(null);
-      setError(null);
-    } catch (e) {
-      setError(e.message || 'Не удалось открыть папку');
     }
-  }, []);
+    setParsedData(parsed);
+    setSelectedFile(null);
+    setError(null);
+  } catch (e) {
+    setError(e.message || 'Не удалось загрузить файлы');
+  }
+}, []);
 
   const selectFile = useCallback((name) => {
     setSelectedFile(name);
@@ -181,60 +179,45 @@ const duplicateItem = useCallback((fileName, index) => {
 }, []);
 
 const createNewFile = useCallback(async (fileName, initialContent = '[]') => {
-  if (!dirHandle) return;
   try {
-    // Убедимся, что строка валидный JSON
     JSON.parse(initialContent);
-    await writeFile(dirHandle, fileName, initialContent);
-
-    setFileContents(prev => {
-      const next = new Map(prev);
-      next.set(fileName, initialContent);
-      return next;
-    });
-    setParsedData(prev => {
-      const next = new Map(prev);
-      next.set(fileName, JSON.parse(initialContent));
-      return next;
-    });
+    const savedName = await createFileRequest(fileName, initialContent);
+    const newFiles = new Map(fileContents);
+    newFiles.set(savedName, initialContent);
+    setFileContents(newFiles);
+    const newParsed = new Map(parsedData);
+    newParsed.set(savedName, JSON.parse(initialContent));
+    setParsedData(newParsed);
     setError(null);
   } catch (e) {
     setError('Ошибка создания файла: ' + e.message);
   }
-}, [dirHandle]);
+}, [fileContents, parsedData]);
 
 const deleteFile = useCallback(async (fileName) => {
-  if (!dirHandle) return;
   try {
-    await dirHandle.removeEntry(fileName);
-    setFileContents(prev => {
-      const next = new Map(prev);
-      next.delete(fileName);
-      return next;
-    });
-    setParsedData(prev => {
-      const next = new Map(prev);
-      next.delete(fileName);
-      return next;
-    });
-    if (selectedFile === fileName) {
-      setSelectedFile(null);
-    }
+    await deleteFileRequest(fileName);
+    const newFiles = new Map(fileContents);
+    newFiles.delete(fileName);
+    setFileContents(newFiles);
+    const newParsed = new Map(parsedData);
+    newParsed.delete(fileName);
+    setParsedData(newParsed);
+    if (selectedFile === fileName) setSelectedFile(null);
     setError(null);
   } catch (e) {
     setError('Ошибка удаления: ' + e.message);
   }
-}, [dirHandle, selectedFile]);
+}, [fileContents, parsedData, selectedFile]);
 
   // Сохранение файла на диск
   const saveCurrentFile = useCallback(async () => {
-    if (!dirHandle || !selectedFile) return;
+    if (!selectedFile) return;
     const data = parsedData.get(selectedFile);
     if (data === undefined) return;
     try {
       const content = JSON.stringify(data, null, 2);
-      await writeFile(dirHandle, selectedFile, content);
-      // обновляем сырое содержимое для консистентности
+      await writeFile(null, selectedFile, content);
       setFileContents((prev) => {
         const next = new Map(prev);
         next.set(selectedFile, content);
@@ -244,31 +227,29 @@ const deleteFile = useCallback(async (fileName) => {
     } catch (e) {
       setError(e.message || 'Ошибка сохранения');
     }
-  }, [dirHandle, selectedFile, parsedData]);
+  }, [selectedFile, parsedData]);
 
   // Внутри useFileManager, перед return
 const saveRawFile = useCallback(async (fileName, rawContent) => {
-  if (!dirHandle) return;
-  try {
-    // Валидация JSON
-    const parsed = JSON.parse(rawContent);
-    // Обновляем состояния
-    setFileContents(prev => {
-      const next = new Map(prev);
-      next.set(fileName, rawContent);
-      return next;
-    });
-    setParsedData(prev => {
-      const next = new Map(prev);
-      next.set(fileName, parsed);
-      return next;
-    });
-    await writeFile(dirHandle, fileName, rawContent);
-    setError(null);
-  } catch (e) {
-    setError('Ошибка сохранения: ' + e.message);
-  }
-}, [dirHandle]);
+    if (!fileName) return;
+    try {
+      const parsed = JSON.parse(rawContent);
+      setFileContents(prev => {
+        const next = new Map(prev);
+        next.set(fileName, rawContent);
+        return next;
+      });
+      setParsedData(prev => {
+        const next = new Map(prev);
+        next.set(fileName, parsed);
+        return next;
+      });
+      await writeFile(null, fileName, rawContent);
+      setError(null);
+    } catch (e) {
+      setError('Ошибка сохранения: ' + e.message);
+    }
+  }, []);
 
   return {
     supported: isFileSystemAccessSupported(),
@@ -285,7 +266,7 @@ const saveRawFile = useCallback(async (fileName, rawContent) => {
     saveCurrentFile,
     saveRawFile,
     createNewFile,    
-    dirHandle,
+    dirHandle: true,
     duplicateItem,
     deleteFile,
   };

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "serious_sam_alternative_timeline",
+    "title": "Serious Sam: Alternative Timeline",
+    "game_for": "Serious Sam The Second Encounter",
+    "status": "Заморожен",
+    "version": "v0.0.3",
+    "links": [
+      {
+        "link_id": 1,
+        "link_title": "Скачать с SeriousSite",
+        "link_path": "https://www.serioussite.ru/load/0-0-0-3116-20"
+      }
+    ],
+    "authors": [
+      "ZianU"
+    ],
+    "date_added": "2023-08-12",
+    "date_last_update": "2024-08-19",
+    "comment": "Сюжетный мод для Serious Sam TSE, рассказывающий альтернативную историю становления Серьёзного Сэма.",
+    "cover": "https://zianu-azureplay.neocities.org/img/projects/mods/SerSam_AltTimeLogo.png",
+    "mdPath": ""
+  }
+]

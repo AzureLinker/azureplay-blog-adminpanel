@@ -143,7 +143,6 @@ const confirmDeleteFile = async () => {
           <Button
             variant="outline-success"
             onClick={() => setShowNewFileModal(true)}
-            disabled={!dirHandle}
             className="ms-2"
           >
             + Новый файл

@@ -1,0 +1,63 @@
+[
+  {
+    "id": "trials_chambers",
+    "title": "Trial Chambers",
+    "game_for": "Serious Sam The Second Encounter",
+    "status": "В разработке",
+    "version": "build.7",
+    "links": [],
+    "authors": [
+      "ZianU"
+    ],
+    "date_added": "2026-04-26",
+    "date_last_update": "2026-05-20",
+    "comment": "Решила наконец вновь заняться картостроением для Serious Sam The Second Encounter™. На данный момент ещё пока выстраиваю базовую архитекруту, хотя парочку комнат уже детализировала и осветила.\n\nПока что рабочее название это либо 'Камеры Испытаний', либо 'Храм Испытаний'. Ещё не определилась.\n\nНо зато у карты уже есть идея, и хотя бы базовая схема всех комнат.\n\nОказывается можно в основном всё освещение из Serious Sam 2 спокойно перенести на движок первых двух пришествий, с этим освещением карта выглядит ещё лучше, так что как закончу, займусь улучшением освещения.\n\nКогда выпущу карту, сделаю ещё и девлог.",
+    "cover": "https://zianu-azureplay.neocities.org/img/projects/levels/Discord_Fyol8Mh9ex-compressed.png",
+    "mdPath": ""
+  },
+  {
+    "id": "hoodlums_backyard_classic",
+    "title": "Hoodlums Backyard Classic",
+    "game_for": "Serious Sam The Second Encounter",
+    "status": "Вышло",
+    "version": "v1.0.1",
+    "links": [
+      {
+        "link_id": 1,
+        "link_title": "Скачать с SeriousSite",
+        "link_path": "https://www.serioussite.ru/load/0-0-0-3116-20"
+      }
+    ],
+    "authors": [
+      "ZianU"
+    ],
+    "date_added": "2023-01-03",
+    "date_last_update": "2023-01-05",
+    "comment": "Начиная с этой карты, я начинаю переделывать все возможные ДМ карты из HD™, на классический Second Encounter™.\n\nРазмер карты отличается от HD варианта, однако карта должна быть удобна.\n\nУстановка: Перенесите .gro файл в корневую папку игры.",
+    "cover": "https://www.serioussite.ru/_ld/31/3116.png",
+    "mdPath": ""
+  },
+  {
+    "id": "persia_deluxe_2",
+    "title": "Персия Делюкс 2!",
+    "game_for": "Serious Sam The Second Encounter",
+    "status": "Вышло",
+    "version": "v1.11",
+    "links": [
+      {
+        "link_id": 1,
+        "link_title": "Скачать с SeriousSite",
+        "link_path": "https://www.serioussite.ru/load/0-0-1-2956-20"
+      }
+    ],
+    "authors": [
+      "ZianU",
+      "KillReall"
+    ],
+    "date_added": "2020-10-19",
+    "date_last_update": "2021-10-06",
+    "comment": "> Сразу же ОГРОМНЕЙШАЯ БЛАГОДАРНОСТЬ Zian U!!!! ИМЕННО БЛАГОДАРЯ ЕЙ КАРТА ВЫШЛА ВООБЩЕ. ОНА УЛУЧШИЛА ОПТИМИЗАЦИЮ, ИСПРАВИЛА ВСЕ ТЕНИ, СВЕТ И ДЕКОРАЦИИ. ЕЩЕ РАЗ СПАСИБО. Вообще эта карта должна была была выйти в апреле нооо... Я тогда увлекся фазаном и в результате появились такие карты как ''The Castle'' и ''Colossi of Memnon''. Когда видюха появится тогда продолжу работу над ПД3 - заключительная во всех персиях. Ждем, Помним, Любим)\n\n> P.S Надо как то ремейк ПД сделать. И маппак замутить в итоге...\n\nЭто карта моего друга, KillReall, которому я помогла с исправлением проблем на карте. Орала 2 недели на него.\n\nУстановка: Перенесите .gro файл в корневую папку игры.",
+    "cover": "https://www.serioussite.ru/_ld/29/2956.png",
+    "mdPath": ""
+  }
+]

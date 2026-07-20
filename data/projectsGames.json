@@ -1,0 +1,29 @@
+[
+  {
+    "id": "yuri_academy_big_contest",
+    "title": "Yuri Academy: Big Contest",
+    "platform": "PC",
+    "status": "Заброшено",
+    "version": "build.05172025",
+    "links": [
+      {
+        "link_id": 1,
+        "link_title": "Страница на itch.io",
+        "link_path": "https://azureplay.itch.io/yuri-academy-big-contest"
+      },
+      {
+        "link_id": 2,
+        "link_title": "Страница на GameJolt",
+        "link_path": "https://gamejolt.com/games/yuri-academy-big-contest/981862"
+      }
+    ],
+    "authors": [
+      "ZianU"
+    ],
+    "date_added": "2025-03-06",
+    "date_last_update": "2025-05-17",
+    "comment": "В академии начинается большой конкурс, и юная Чио-сан горит желанием в нём победить. Однако всё не так просто: среди конкурентов оказывается надоедливый вампир, который хочет победы ничуть не меньше и обязательно будет вставлять палки в колёса главной героине. К чему же всё это приведёт?\n\nВ игре заклинания используют не ману, а слоты, которые быстро расходуются, и маги становятся бесполезными.\n\nИгра, созданная для Girly Game Jam 2025, и позже заброшенная из-за несформированной идеи геймпеля. Движок: RPG Maker MZ.",
+    "cover": "https://zianu-azureplay.neocities.org/img/projects/games/yuriAcademy_GJDemo.png",
+    "mdPath": ""
+  }
+]

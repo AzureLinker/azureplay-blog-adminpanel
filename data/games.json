@@ -1,0 +1,1358 @@
+[
+  {
+    "id": 1,
+    "title": "Final Fantasy",
+    "authors": [
+      "Squaresoft",
+      "Square Enix"
+    ],
+    "platform": "PlayStation Portable - PSP",
+    "status": "Прохожу",
+    "genre": [
+      "JRPG",
+      "RPG",
+      "Fantasy"
+    ],
+    "score": "-/10",
+    "date_added": "2008-04-18",
+    "comment": "Изначально я хотела полностью пройти версию игры для PlayStation 1, в составе Final Fantasy Origins, но там была проблема, присущая оригинальной игре на NES:\n\nВ игре заклинания используют не ману, а слоты, которые быстро расходуются, и маги становятся бесполезными.\n\nВот в PSP версии магия использует ману, что проще по всем параметрам, ну ещё и сохранена музыка от Нобуо Уэматсу. Плюс надеюсь, что при помощи захвата экрана со своей PS Vita я смогу нормально записать футажи.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/245605-final-fantasy-psp-front-cover.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Kula World",
+    "authors": [
+      "Psygnosis"
+    ],
+    "platform": "PlayStation 1",
+    "status": "Прохожу",
+    "genre": [
+      "Action",
+      "Головоломки",
+      "Платформер"
+    ],
+    "score": "-/10",
+    "date_added": "1998-06-10",
+    "comment": "Очень интересная игра, прям удивительная, люблю подобные головоломки.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/6825921-roll-away-playstation-front-cover.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Ara Fell: Enhanced Edition",
+    "authors": [
+      "Stegosoft Games"
+    ],
+    "platform": "PC",
+    "status": "Прохожу",
+    "genre": [
+      "RPG",
+      "JRPG",
+      "Фэнтези"
+    ],
+    "score": "-/10",
+    "date_added": "2016-06-02",
+    "comment": "Довольно простенькая но ламповая рпгшечка. Я пару раз забрасывала её, так как не было времени, а сейчас прохожу, и наслаждаюсь.",
+    "links": [],
+    "cover": "https://shared.steamstatic.com/store_item_assets/steam/apps/440540/library_600x900_2x.jpg?t=1669279887"
+  },
+  {
+    "id": 4,
+    "title": "Dead Island: Definitive Edition",
+    "authors": [
+      "Techland"
+    ],
+    "platform": "PC",
+    "status": "Прохожу",
+    "genre": [
+      "RPG",
+      "Экшн",
+      "Зомби",
+      "Хоррор"
+    ],
+    "score": "-/10",
+    "date_added": "2016-05-31",
+    "comment": "Довольно бодрая польская угарная игра. Полюбилась мне ещё с летсплеев БрейнДита и Алекса Позитивного.\n\nХочу на втором канале с другом снять кооперативное прохождение.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/2424364-dead-island-definitive-edition-xbox-one-front-cover.png"
+  },
+  {
+    "id": 5,
+    "title": "Alien Isolation",
+    "authors": [
+      "Creative Assembly",
+      "Feral Interactive",
+      "SEGA"
+    ],
+    "platform": "PC",
+    "status": "Перепрохожу",
+    "genre": [
+      "Хоррор",
+      "Экшн",
+      "Стелс",
+      "Шутер"
+    ],
+    "score": "9.7/10",
+    "date_added": "2014-10-07",
+    "comment": "Это, по моему личному мнению, самая лучшая хоррор игра про Чужого, и игра с самым лучшим ИИ у монстра.\n\nПрохожу на втором канале.",
+    "links": [
+      {
+        "link_id": 1,
+        "link_title": "Прохождение на Лазурне",
+        "link_path": "https://www.youtube.com/playlist?list=PLdXPcASDRbkc8XpVxknzxFINKxeZnQM9p"
+      }
+    ],
+    "cover": "https://shared.steamstatic.com/store_item_assets/steam/apps/214490/library_600x900_2x.jpg?t=1668768007"
+  },
+  {
+    "id": 6,
+    "title": "Spyro the Dragon",
+    "authors": [
+      "Insomniac Games"
+    ],
+    "platform": "PlayStation 1",
+    "status": "Перепрохожу",
+    "genre": [
+      "Платформер",
+      "Экшн",
+      "Фэнтези"
+    ],
+    "score": "8.3/10",
+    "date_added": "1998-09-09",
+    "comment": "В сентябре 2025 я прошла эту игру на все 100%\n\nГеймплейно прикольно, и не сильно сложно (если не учитывать существование полётных уровней), но камера это, конечно, моё почтение.\n\nСейчас решила ещё раз перепройти эту игру, чтобы сделать по ней статью, ну и ролики для 'Лазурни' зафигачить",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/4799551-spyro-the-dragon-playstation-front-cover.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Эдна и Харви: Взрыв мозга",
+    "authors": [
+      "Daedalic Entertainment"
+    ],
+    "platform": "PC",
+    "status": "Пройдено несколько раз",
+    "genre": [
+      "Adventure",
+      "Головоломки",
+      "Поиск предметов",
+      "point-n-click"
+    ],
+    "score": "8.8/10",
+    "date_added": "2008-12-19",
+    "comment": "Довольно юморная головоломка, всем советую. Правда есть проблемы с управлением на старой версии игры, ну и немного озвучка путается.\n\nВообще не хватает таких игр для меня, ну или я не могу найти похожих прям юморных головоломок.\n\nВообще хочется свою похожую игру сделать, но пока это не в приоритете.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/5279016-edna-harvey-the-breakout-windows-front-cover.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Эдна и Харви: Новые глаза Харви",
+    "authors": [
+      "Daedalic Entertainment"
+    ],
+    "platform": "PC",
+    "status": "Пройдено несколько раз",
+    "genre": [
+      "Adventure",
+      "Головоломки",
+      "Поиск предметов",
+      "point-n-click"
+    ],
+    "score": "9.5/10",
+    "date_added": "2012-10-16",
+    "comment": "Вот эта игра уже лучше управляется, и круче выглядит, да ещё и угара побольше.\n\nВообще Daedalic хороши в создании юморных головоломок, а в этой ещё и музыка прекрасна.\n\nЭту игру я тоже советую всем поиграть. Вот только перевод только текстовый, без озвучки, а жаль.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/6483767-edna-harvey-harveys-new-eyes-windows-front-cover.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Serious Sam 3",
+    "authors": [
+      "Croteam"
+    ],
+    "platform": "PC",
+    "status": "Пройдено несколько раз",
+    "genre": [
+      "Аркадный Шутер",
+      "Экшн",
+      "Шутер"
+    ],
+    "score": "9.5/10",
+    "date_added": "2011-11-22",
+    "comment": "Самая кровавая и самая серьёзная часть похождений Семёна.\n\nИ обзор есть, и даже футажи на втором канале уже выкладываю.",
+    "links": [
+      {
+        "link_id": 1,
+        "link_title": "Обзор на AzurePlay",
+        "link_path": "https://www.youtube.com/watch?v=CAT5yWoMHmA"
+      },
+      {
+        "link_id": 2,
+        "link_title": "Прохождение на Лазурне",
+        "link_path": "https://www.youtube.com/playlist?list=PLdXPcASDRbke4HNspkeZniXiUAttfwio_"
+      }
+    ],
+    "cover": "https://shared.steamstatic.com/store_item_assets/steam/apps/41070/library_600x900_2x.jpg?t=1569336149"
+  },
+  {
+    "id": 10,
+    "title": "Quake",
+    "authors": [
+      "id Software"
+    ],
+    "platform": "PC",
+    "status": "Пройдено несколько раз",
+    "genre": [
+      "Аркадный Шутер",
+      "Экшн",
+      "Шутер"
+    ],
+    "score": "8.9/10",
+    "date_added": "1996-06-22",
+    "comment": "Люблю играть в Quake, и даже первое видео на основном канале я сделала по этой игре.\n\nВот эта игра действительно перевернула мир 3D игр, и движок этой игры стал основой для многих движков и игр во всём мире.\n\nДля Лазурни роликов нет, но когда-нибудь хочу попробовать на контроллере пройти игру, и футажи выкладывать на втором канале, чтобы пополнять библиотеку.",
+    "links": [
+      {
+        "link_id": 1,
+        "link_title": "Обзор на AzurePlay",
+        "link_path": "https://www.youtube.com/watch?v=qKNEI9HH-HA"
+      }
+    ],
+    "cover": "https://cdn.mobygames.com/covers/4808116-quake-dos-front-cover.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Quake II",
+    "authors": [
+      "id Software"
+    ],
+    "platform": "PC",
+    "status": "Пройдено несколько раз",
+    "genre": [
+      "Аркадный Шутер",
+      "Экшн",
+      "Шутер"
+    ],
+    "score": "9.6/10",
+    "date_added": "1997-12-09",
+    "comment": "Quake 2 я также люблю периодически перепроходить.\n\nИ я даже играла в версию этой игры для PlayStation 1. Ну кстати, довольно было интересно играть в эту игру на контроллере.\n\nДля Лазурни также нет роликов, но хочу основную компанию перепройти на контроллере, и футажи выкладывать.",
+    "links": [
+      {
+        "link_id": 1,
+        "link_title": "Обзор на AzurePlay",
+        "link_path": "https://www.youtube.com/watch?v=3bAFTzhS5PA"
+      }
+    ],
+    "cover": "https://cdn.mobygames.com/covers/4154219-quake-ii-windows-front-cover.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Half-Life",
+    "authors": [
+      "Valve"
+    ],
+    "platform": "PC",
+    "status": "Пройдено несколько раз",
+    "genre": [
+      "Sci-Fi",
+      "Экшн",
+      "Шутер"
+    ],
+    "score": "9.8/10",
+    "date_added": "1998-11-19",
+    "comment": "Half-Life 1 это просто икона жанра, и действительно заслужила своё место в зале славы видеоигр.\n\nЯ проходила эту игру бесчисленное количество раз. И даже версию на 25-летие игры прошла несколько раз.\n\nКогда-нибудь я раздуплюсь, и сделаю очень качественное видео про эту игру, и её историю.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/8773456-half-life-windows-front-cover.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Half-Life 2",
+    "authors": [
+      "Valve"
+    ],
+    "platform": "PC",
+    "status": "Пройдено несколько раз",
+    "genre": [
+      "Sci-Fi",
+      "Экшн",
+      "Шутер"
+    ],
+    "score": "9.9/10",
+    "date_added": "2004-11-16",
+    "comment": "Half-Life 2 не только сохранило качество оригинальной игры, но и приуножило его. Вот эта игра совершила также технологическую и графическую революцию.\n\nКогда-нибудь по этой игре я сделаю не просто большое крутое видео, а даже целый мини-фильм.\n\nПочему оценка не 10 из 10? Я бесконечно обожаю Half-Life 2, но мне всё ещё хочется оставить место для того, что я могу с точной уверенностью назвать самой лучшей игрой. Если такой не будет, то естественно это место отойдёт Half-Life 2.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/4205774-half-life-2-windows-front-cover.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Half-Life 2: Episode One",
+    "authors": [
+      "Valve"
+    ],
+    "platform": "PC",
+    "status": "Пройдено несколько раз",
+    "genre": [
+      "Sci-Fi",
+      "Экшн",
+      "Шутер"
+    ],
+    "score": "9.5/10",
+    "date_added": "2006-06-08",
+    "comment": "Первый эпизод продолжения Half-Life 2 такой себе. Тут сыграло роль то, что слишком поторопились разработчики.\n\nВидео по эпизодам я делать буду, но уже не такое большое, как по оригинальной Half-Life 2.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/4394917-half-life-2-episode-one-windows-front-cover.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Half-Life 2: Episode Two",
+    "authors": [
+      "Valve"
+    ],
+    "platform": "PC",
+    "status": "Пройдено несколько раз",
+    "genre": [
+      "Sci-Fi",
+      "Экшн",
+      "Шутер"
+    ],
+    "score": "9.9/10",
+    "date_added": "2007-10-10",
+    "comment": "Вот второй эпизод Half-Life 2 стал уже гораздо лучше, прям на уровне оригинальной игры.\n\nКак будет выглядеть видео по этому эпизоду, я пока не знаю, но определённо разберусь со временем.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/6357708-half-life-2-episode-two-windows-front-cover.jpg"
+  },
+  {
+    "id": 16,
+    "title": "Portal",
+    "authors": [
+      "Valve"
+    ],
+    "platform": "PC",
+    "status": "Пройдено несколько раз",
+    "genre": [
+      "Sci-Fi",
+      "Экшн",
+      "Головоломка",
+      "Платформер"
+    ],
+    "score": "8.7/10",
+    "date_added": "2007-10-10",
+    "comment": "Первый Portal стал хорошей технодемкой геймплея и головоломок. Сюжет есть, все дела, но всё-таки не совсем уж и хорошая игра. Вот озвучка русская это просто страх и ужас.\n\nОбзор у игры есть, так что наслаждайтесь.",
+    "links": [
+      {
+        "link_id": 1,
+        "link_title": "Обзор на AzurePlay",
+        "link_path": "https://www.youtube.com/watch?v=xnAIgj2brj8"
+      }
+    ],
+    "cover": "https://cdn.mobygames.com/covers/7055270-portal-windows-front-cover.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Left 4 Dead 2",
+    "authors": [
+      "Valve"
+    ],
+    "platform": "PC",
+    "status": "Пройдено несколько раз",
+    "genre": [
+      "Zombie",
+      "Экшн",
+      "Шутер",
+      "Хоррор"
+    ],
+    "score": "8.9/10",
+    "date_added": "2009-11-17",
+    "comment": "Первого Left 4 Dead у меня нет, но это не проблема. Вообще очень хороший сурвайвл хоррор. И полный кайф для кооператива.\n\nНе знаю, что насчёт обзора, но ролики на втором канале делать хочу.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/8096998-left-4-dead-2-windows-front-cover.jpg"
+  },
+  {
+    "id": 18,
+    "title": "Machinarium",
+    "authors": [
+      "Amanita Design"
+    ],
+    "platform": "PC",
+    "status": "Пройдено несколько раз",
+    "genre": [
+      "Adventure",
+      "Головоломки",
+      "Поиск предметов",
+      "point-n-click"
+    ],
+    "score": "8.2/10",
+    "date_added": "2009-10-16",
+    "comment": "Довольно добротный поинт-н-клик адвенчюра, которая прям может заинтересовать очень и очень сильно. Только если не учитывать одну крайне бесячую мини-игру.\n\nУ игры есть как обзор на основном канале, так и плейлист на втором.",
+    "links": [
+      {
+        "link_id": 1,
+        "link_title": "Обзор на AzurePlay",
+        "link_path": "https://www.youtube.com/watch?v=IRZYDaJMKa4"
+      },
+      {
+        "link_id": 2,
+        "link_title": "Прохождение на Лазурне",
+        "link_path": "https://www.youtube.com/playlist?list=PLdXPcASDRbkdrabx6KaJ7w30rJPNQIxaV"
+      }
+    ],
+    "cover": "https://cdn.mobygames.com/covers/8967210-machinarium-windows-phone-front-cover.jpg"
+  },
+  {
+    "id": 19,
+    "title": "Mirror's Edge",
+    "authors": [
+      "DICE",
+      "EA Games"
+    ],
+    "platform": "PC",
+    "status": "Пройдено несколько раз",
+    "genre": [
+      "Экшн",
+      "Шутер",
+      "Паркур",
+      "Платформер"
+    ],
+    "score": "9.2/10",
+    "date_added": "2009-01-21",
+    "comment": "Просто прекраснейшая паркурная игра от первого лица. Ещё и дизайн города и всего прочего просто моё почтение.\n\nУ игры есть обзор на основном канале.",
+    "links": [
+      {
+        "link_id": 1,
+        "link_title": "Обзор на AzurePlay",
+        "link_path": "https://www.youtube.com/watch?v=yxzYIRSDHZc"
+      }
+    ],
+    "cover": "https://cdn.mobygames.com/covers/5302754-mirrors-edge-windows-front-cover.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Portal 2",
+    "authors": [
+      "Valve"
+    ],
+    "platform": "PC",
+    "status": "Пройдено несколько раз",
+    "genre": [
+      "Sci-Fi",
+      "Экшн",
+      "Головоломка",
+      "Платформер"
+    ],
+    "score": "9.6/10",
+    "date_added": "2011-04-18",
+    "comment": "Это самая лучшая головоломка в моей жизни. Я никогда ещё так не наслаждалась решением загадок, как в этой игре.\n\nКооперативная компания игры тоже такая же гениальная, а редактор карт это просто моё почтение.\n\nИгра рассматривалась в двух обзорах на основном канале.",
+    "links": [
+      {
+        "link_id": 1,
+        "link_title": "Обзор на AzurePlay (Часть 1)",
+        "link_path": "https://www.youtube.com/watch?v=L4dkqiI5Bjo"
+      },
+      {
+        "link_id": 2,
+        "link_title": "Обзор на AzurePlay (Часть 2)",
+        "link_path": "https://www.youtube.com/watch?v=WuD3f6wXZPM"
+      }
+    ],
+    "cover": "https://cdn.mobygames.com/covers/4935617-portal-2-windows-front-cover.jpg"
+  },
+  {
+    "id": 21,
+    "title": "LEGO Harry Potter: Years 1-4",
+    "authors": [
+      "Traveller's Tales"
+    ],
+    "platform": "PC",
+    "status": "Пройдено несколько раз",
+    "genre": [
+      "Приключение",
+      "Экшн",
+      "Головоломка",
+      "Платформер"
+    ],
+    "score": "8.9/10",
+    "date_added": "2010-06-24",
+    "comment": "Это моя самая первая LEGO игра в жизни. Я крайне рада тому, что познакомилась с ней. И даже рада, что был пусть и простенький, но редактор уроаней.\n\nПравда раньше я проходила игру на клавиатуре, но сейчас, когда у меня есть контроллер, мне гораздо удобнее играть во все LEGO игры.\n\nНе уверена, что буду делать по ней обзор, но прохождение возможно буду делать.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/2378177-lego-harry-potter-years-1-4-windows-front-cover.jpg"
+  },
+  {
+    "id": 22,
+    "title": "LEGO Harry Potter: Years 5-7",
+    "authors": [
+      "Traveller's Tales"
+    ],
+    "platform": "PC",
+    "status": "Пройдено несколько раз",
+    "genre": [
+      "Приключение",
+      "Экшн",
+      "Головоломка",
+      "Платформер"
+    ],
+    "score": "9.2/10",
+    "date_added": "2011-11-11",
+    "comment": "Из-за антипиратской защиты я очень поздно познакомилась с продолжением LEGO Поттера, но когда купила их официально, то проходила с нетерпением.\n\nИ по факту и графика и геймплей стали ещё лучше. Хотя были некоторые изменения, которые мне не вкатили, но в остальном прям хорошо.\n\nНе уверена, что буду делать по ней обзор, но прохождение возможно буду делать.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/3211705-lego-harry-potter-years-5-7-macintosh-front-cover.jpg"
+  },
+  {
+    "id": 23,
+    "title": "The Elder Scrolls V: Skyrim",
+    "authors": [
+      "Bethesda"
+    ],
+    "platform": "PC",
+    "status": "Пройдено несколько раз",
+    "genre": [
+      "RPG",
+      "Экшн",
+      "Открытый Мир",
+      "Песочница",
+      "Фэнтези",
+      "Action RPG"
+    ],
+    "score": "8.4/10",
+    "date_added": "2011-11-11",
+    "comment": "Скайрим вполне себе может завлечь игроков, и предложить большое поле для приколов, ну меня и завлекло однажды.\n\nЯ, конечно, несколько раз пыталась заснять прохождения, и разные сборки, но сейчас либо играю на своей сборке, либо ничего не делаю.\n\nЕсть, конечно, мысли сделать свою серию летсплеев по моей сборке, или даже устроить что-то типа веб-сериала, но это пока только мысли.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/1211009-the-elder-scrolls-v-skyrim-playstation-3-manual.jpg"
+  },
+  {
+    "id": 24,
+    "title": "Eldritch",
+    "authors": [
+      "Minor Key Games"
+    ],
+    "platform": "PC",
+    "status": "Пройдено несколько раз",
+    "genre": [
+      "RPG",
+      "Экшн",
+      "Стелс",
+      "Хоррор",
+      "Фэнтези"
+    ],
+    "score": "8.2/10",
+    "date_added": "2013-10-21",
+    "comment": "Это довольно необычная для меня игра, которая ещё и была сделана на собственном движке. Это можно даже назвать рогаликом, потому что каждую новую игру строения подземелий генерируется новое.\n\nЯ не уверена, что есть смысл делать обзор для игры, и даже делать плейлист на втором канале, но я как-то сделала быстрое прохождение основной кампании.\n\nПри этом больше всех мне не нравится песчаное измерение из-за местных 'плачущих ангелов', а точнее каменных ящериц.\n\nСейчас даже прохожу игру на PS Vita (это хоумбрю для консоли, где требуются оригинальные файлы лицензионной версии). Очень даже неплохо.",
+    "links": [
+      {
+        "link_id": 1,
+        "link_title": "'Скоростное' прохождение на Лазурне",
+        "link_path": "https://www.youtube.com/watch?v=SxALhZUAUdU"
+      }
+    ],
+    "cover": "https://cdn.mobygames.com/covers/3051627-eldritch-linux-front-cover.jpg"
+  },
+  {
+    "id": 25,
+    "title": "Black Mesa",
+    "authors": [
+      "Crowbar Collective"
+    ],
+    "platform": "PC",
+    "status": "Пройдено несколько раз",
+    "genre": [
+      "Sci-Fi",
+      "Экшн",
+      "Шутер"
+    ],
+    "score": "9.6/10",
+    "date_added": "2015-05-05",
+    "comment": "Вообще это действительно крайне хороший ремейк первой Half-Life, но всё же оригинал мне дороже. Да, синдром утёнка. Это мой бэклог и моё мнение.\n\nСмысла делать отдельный обзор Black Mesa я не вижу, только в связке с оригинальной игрой.",
+    "links": [],
+    "cover": "https://shared.steamstatic.com/store_item_assets/steam/apps/362890/958210cdb8b6ac68597579f015f7fc6675f1a2f8/library_600x900_2x.jpg?t=1747193631"
+  },
+  {
+    "id": 26,
+    "title": "Dying Light",
+    "authors": [
+      "Techland"
+    ],
+    "platform": "PC",
+    "status": "Пройдено несколько раз",
+    "genre": [
+      "RPG",
+      "Экшн",
+      "Зомби",
+      "Хоррор",
+      "Паркур",
+      "Открытый мир",
+      "Песочница"
+    ],
+    "score": "8.2/10",
+    "date_added": "2015-01-27",
+    "comment": "Мне крайне сильно понравилась эта игра. Паркур от первого лица, драки с зомби, адекватная прокачка. Прям кайфую от неё.\n\nДумаю, стоит ли делать обзор. Пока не знаю.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/18823267-dying-light-xbox-one-front-cover.png"
+  },
+  {
+    "id": 27,
+    "title": "Mirror's Edge: Catalyst",
+    "authors": [
+      "DICE",
+      "EA Games"
+    ],
+    "platform": "PC",
+    "status": "Пройдено несколько раз",
+    "genre": [
+      "Экшн",
+      "Шутер",
+      "Паркур",
+      "Платформер",
+      "Открытый мир"
+    ],
+    "score": "8.7/10",
+    "date_added": "2016-06-07",
+    "comment": "Вот вроде бы, хороший сиквел, где и графика лучше, и паркур хороший, и даже можно поснимать условные футажики паркура. Но есть нюанс, как говорится.\n\nПоявилась прокачка. И в этой прокачке надо возвращать то, что в первой игре было по умолчанию.  И это очень неприятно. \n\nА ещё даже в Steam нужен этот дурацкий Origin, без которого игра не будет запускаться. В остальном да сойдёт. Побегать есть где.\n\nХочу вот сделать обзор, но тяжело. Потому что как будто отталкивает игра от обзора.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/1235906-mirrors-edge-catalyst-windows-front-cover.jpg"
+  },
+  {
+    "id": 28,
+    "title": "Blazing Dragons",
+    "authors": [
+      "Crystal Dynamics",
+      "Illusions Gaming Company"
+    ],
+    "platform": "PlayStation 1",
+    "status": "Пройдено",
+    "genre": [
+      "Adventure",
+      "Головоломки",
+      "Поиск предметов",
+      "point-n-click"
+    ],
+    "score": "8.4/10",
+    "date_added": "1996-10-03",
+    "comment": "Головоломка с поиском предметов с хорошей рисовкой. Я впервые играю в подобные головоломки на консоли, тем более такой старой, как PlayStation 1.\n\nДовольно необычный юмор, ну и игра требует всё-таки внимания и абсурдности. Я, кстати, сделала [статью про эту игру](https://zianu-azureplay.neocities.org/#/post/1777593600000) на этом сайте.",
+    "links": [
+      {
+        "link_id": 1,
+        "link_title": "Статья по игре",
+        "link_path": "https://zianu-azureplay.neocities.org/#/post/1777593600000"
+      },
+      {
+        "link_id": 2,
+        "link_title": "Прохождение на Лазурне",
+        "link_path": "https://www.youtube.com/playlist?list=PLdXPcASDRbkcyN75Jz288QCaB6PBlV5xV"
+      }
+    ],
+    "cover": "https://cdn.mobygames.com/covers/6273663-blazing-dragons-playstation-front-cover.png"
+  },
+  {
+    "id": 29,
+    "title": "Doom",
+    "authors": [
+      "id Software"
+    ],
+    "platform": "DOS",
+    "status": "Пройдено",
+    "genre": [
+      "Аркадный Шутер",
+      "Экшн",
+      "Шутер"
+    ],
+    "score": "8.8/10",
+    "date_added": "1993-12-10",
+    "comment": "Относительно недавно купила в Steam DOOM + DOOM II, и вот прохожу. Точнее уже прошла, и мне понравилось. Особенно мне нравится редактор карт.\n\nКонечно не очень привычно мне, что вертикально смотреть нельзя, но что поделать.",
+    "links": [
+      {
+        "link_id": 1,
+        "link_title": "Обзор на AzurePlay",
+        "link_path": "https://www.youtube.com/watch?v=VfqCr37AuV0"
+      },
+      {
+        "link_id": 2,
+        "link_title": "Прохождение на Лазурне",
+        "link_path": "https://www.youtube.com/playlist?list=PLdXPcASDRbkfEFweOKPdJ4HlqIYrw80dY"
+      }
+    ],
+    "cover": "https://upload.wikimedia.org/wikipedia/en/5/57/Doom_cover_art.jpg"
+  },
+  {
+    "id": 30,
+    "title": "Doom II",
+    "authors": [
+      "id Software"
+    ],
+    "platform": "DOS",
+    "status": "Пройдено",
+    "genre": [
+      "Аркадный Шутер",
+      "Экшн",
+      "Шутер"
+    ],
+    "score": "9.5/10",
+    "date_added": "1994-09-30",
+    "comment": "Также прошла в рамках DOOM + DOOM II в Steam. Здесь прям покруче всё работает, и. Редактор карт всё такой же хороший.\n\n'Люблю' архвилей.",
+    "links": [],
+    "cover": "https://i.pinimg.com/736x/3b/65/ef/3b65efce9e10df5d4ad6de31a590cac2.jpg"
+  },
+  {
+    "id": 31,
+    "title": "Deponia",
+    "authors": [
+      "Daedalic Entertainment"
+    ],
+    "platform": "PC",
+    "status": "Пройдено",
+    "genre": [
+      "Adventure",
+      "Головоломки",
+      "Поиск предметов",
+      "point-n-click"
+    ],
+    "score": "8.5/10",
+    "date_added": "2012-01-27",
+    "comment": "Депонию я всё не могла никак начать, но однажды как-то удалось взять себя в руки. И она далась мне сложнее обычного.\n\nПри этом я хочу всё-таки ещё раз попробовать нормально пройти игру и всю серию.\n\nНасчёт обзора не уверена, но плейлист на Лазурне игра определённо получит.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/6686180-deponia-windows-front-cover.jpg"
+  },
+  {
+    "id": 32,
+    "title": "Dishonored",
+    "authors": [
+      "Arkane Studios"
+    ],
+    "platform": "PC",
+    "status": "Пройдено",
+    "genre": [
+      "Экшн",
+      "Головоломки",
+      "Стелс",
+      "Паркур",
+      "Фэнтези",
+      "Стимпанк",
+      "RPG"
+    ],
+    "score": "8.5/10",
+    "date_added": "2012-10-09",
+    "comment": "Dishonored  прошла всего раз, хотя проходила два раза.  В первый раз остановилась на самом последнем уровне.\n\nОднажды я снимала как раз летсплей этой игры, а спустя пару лет сняла вот новое прохождение на втором канале.",
+    "links": [
+      {
+        "link_id": 1,
+        "link_title": "Прохождение на Лазурне",
+        "link_path": "https://www.youtube.com/playlist?list=PLdXPcASDRbkdGaSY5iW6EXYhOPbqc7doa"
+      }
+    ],
+    "cover": "https://cdn.mobygames.com/covers/1203744-dishonored-playstation-3-manual.jpg"
+  },
+  {
+    "id": 33,
+    "title": "Doom 2016",
+    "authors": [
+      "id Software",
+      "Bethesda"
+    ],
+    "platform": "PC",
+    "status": "Пройдено",
+    "genre": [
+      "Аркадный Шутер",
+      "Экшн",
+      "Шутер",
+      "Sci-Fi"
+    ],
+    "score": "9.1/10",
+    "date_added": "2016-05-13",
+    "comment": "Это очень клёвый перезапуск серии. Стрельба отличная, графика отпад. Редактор карт есть, вообще кайфолыга.\n\nЕдинственное что есть, это небольшие сегменты, которые замедляют скорость игры.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/10138940-doom-windows-front-cover.jpg"
+  },
+  {
+    "id": 34,
+    "title": "Final Fantasy II",
+    "authors": [
+      "Squaresoft",
+      "Square Enix"
+    ],
+    "platform": "PlayStation Portable - PSP",
+    "status": "Хочу пройти",
+    "genre": [
+      "JRPG",
+      "RPG",
+      "Fantasy"
+    ],
+    "score": "-/10",
+    "date_added": "2008-04-18",
+    "comment": "Вторую часть я ещё не играла, но хочу поиграть все от первой до 9 полностью.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/6129547-final-fantasy-ii-psp-front-cover.jpg"
+  },
+  {
+    "id": 35,
+    "title": "Final Fantasy III",
+    "authors": [
+      "Squaresoft",
+      "Square Enix",
+      "Matrix Software"
+    ],
+    "platform": "PlayStation Portable - PSP",
+    "status": "Хочу пройти",
+    "genre": [
+      "JRPG",
+      "RPG",
+      "Fantasy"
+    ],
+    "score": "-/10",
+    "date_added": "2012-09-20",
+    "comment": "Третья Final Fantasy для PSP базируется на 3D ремейке на Nintendo DS.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/6623960-final-fantasy-iii-psp-front-cover.jpg"
+  },
+  {
+    "id": 36,
+    "title": "Final Fantasy IV",
+    "authors": [
+      "Squaresoft",
+      "Square Enix",
+      "Bullets"
+    ],
+    "platform": "PlayStation Portable - PSP",
+    "status": "Хочу пройти",
+    "genre": [
+      "JRPG",
+      "RPG",
+      "Fantasy"
+    ],
+    "score": "-/10",
+    "date_added": "2011-03-24",
+    "comment": "Эта часть стала последней, перевыпущенной на PSP, а PS Vita Square Enix игнорировали вместе со всей основной серией.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/6597912-final-fantasy-iv-the-complete-collection-psp-front-cover.jpg"
+  },
+  {
+    "id": 37,
+    "title": "Final Fantasy V",
+    "authors": [
+      "Squaresoft"
+    ],
+    "platform": "Super Nintendo Entertainment System - SNES",
+    "status": "Хочу пройти",
+    "genre": [
+      "JRPG",
+      "RPG",
+      "Fantasy"
+    ],
+    "score": "-/10",
+    "date_added": "1992-12-06",
+    "comment": "Я помню эту игру довольно неоднозначной, но может во взрослой жизни я полюблю игру сильнее.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/6144630-final-fantasy-v-snes-front-cover.jpg"
+  },
+  {
+    "id": 38,
+    "title": "Final Fantasy VI",
+    "authors": [
+      "Squaresoft"
+    ],
+    "platform": "Super Nintendo Entertainment System - SNES",
+    "status": "Хочу пройти",
+    "genre": [
+      "JRPG",
+      "RPG",
+      "Fantasy"
+    ],
+    "score": "-/10",
+    "date_added": "1994-04-02",
+    "comment": "Последняя 16-битная игра из номерной серии, и последняя, которая преимущественно выходила на консоли Nintendo. Уже со следующей игры Squaresoft станут любителями",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/3369197-final-fantasy-iii-snes-front-cover.jpg"
+  },
+  {
+    "id": 39,
+    "title": "Final Fantasy VII",
+    "authors": [
+      "Squaresoft"
+    ],
+    "platform": "PlayStation 1",
+    "status": "Хочу пройти",
+    "genre": [
+      "JRPG",
+      "RPG",
+      "Fantasy"
+    ],
+    "score": "-/10",
+    "date_added": "1997-01-31",
+    "comment": "Эта часть игры считается самой лучшей. Я с этим не то, чтобы спорю, но мне больше по душе другая часть, которую я считаю сильно недооценённой.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/8585653-final-fantasy-vii-playstation-manual.jpg"
+  },
+  {
+    "id": 40,
+    "title": "Final Fantasy VIII",
+    "authors": [
+      "Squaresoft"
+    ],
+    "platform": "PlayStation 1",
+    "status": "Хочу пройти",
+    "genre": [
+      "JRPG",
+      "RPG",
+      "Fantasy"
+    ],
+    "score": "-/10",
+    "date_added": "1999-02-11",
+    "comment": "Самая спорная часть из всей линейки, по мнению общественности. Я в эту часть вообще не играла, поэтому сказать пока не могу.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/5382380-final-fantasy-viii-playstation-front-cover.jpg"
+  },
+  {
+    "id": 41,
+    "title": "Final Fantasy IX",
+    "authors": [
+      "Squaresoft"
+    ],
+    "platform": "PlayStation 1",
+    "status": "Хочу пройти",
+    "genre": [
+      "JRPG",
+      "RPG",
+      "Fantasy"
+    ],
+    "score": "-/10",
+    "date_added": "2000-07-07",
+    "comment": "Последняя часть, выпущенная на PlayStation 1, и одна из последних игр старой Squaresoft. Над этой игрой всё ещё работали отец серии - Хиронобу Сакагути, и великий композитор серии - Нобуо Уэматсу.\n\nИменно эту игру я считаю самой лучшей из всех первых 9 игр. И по факту я считаю её очень сильно недооценённой. Когда мои обзоры дойдут до этой игры, вы всё поймёте.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/3958610-final-fantasy-ix-playstation-front-cover.jpg"
+  },
+  {
+    "id": 42,
+    "title": "The Witcher: Enhanced Edition",
+    "authors": [
+      "CD Projekt RED"
+    ],
+    "platform": "PC",
+    "status": "Хочу пройти",
+    "genre": [
+      "Фэнтези",
+      "Экшн",
+      "РПГ"
+    ],
+    "score": "-/10",
+    "date_added": "2008-09-16",
+    "comment": "Я как-то начала играть, но быстро прекратила. Буду пытаться прям пройти.\n\nБуду делать обзор игры это точно.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/9864750-the-witcher-enhanced-edition-windows-front-cover.jpg"
+  },
+  {
+    "id": 43,
+    "title": "Dark Messiah of Might and Magic",
+    "authors": [
+      "Arkane Studios"
+    ],
+    "platform": "PC",
+    "status": "Хочу пройти",
+    "genre": [
+      "Экшн",
+      "Симулятор",
+      "RPG",
+      "Фэнтези"
+    ],
+    "score": "-/10",
+    "date_added": "2006-10-25",
+    "comment": "Не сразу я вспомнила, что хотела поиграть в эту игру, но вот наткнулась случайно на пост, и решила себе в бэклог добавить.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/4823499-dark-messiah-might-and-magic-windows-front-cover.jpg"
+  },
+  {
+    "id": 44,
+    "title": "Fallout: New Vegas",
+    "authors": [
+      "Obsidian Entertainment"
+    ],
+    "platform": "PC",
+    "status": "Хочу пройти",
+    "genre": [
+      "Экшн",
+      "Песочница",
+      "RPG",
+      "Sci-Fi",
+      "Постапокалипс",
+      "Шутер"
+    ],
+    "score": "-/10",
+    "date_added": "2010-10-19",
+    "comment": "Никогда, на самом деле, ещё не играла в Fallout New Vegas, но надо же будет когда-нибудь начать.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/6150030-fallout-new-vegas-windows-front-cover.jpg"
+  },
+  {
+    "id": 45,
+    "title": "Ni no Kuni: Wrath of the White Witch",
+    "authors": [
+      "Level-5"
+    ],
+    "platform": "PC",
+    "status": "Хочу пройти",
+    "genre": [
+      "JRPG",
+      "RPG",
+      "Fantasy"
+    ],
+    "score": "-/10",
+    "date_added": "2011-11-17",
+    "comment": "Из того, что я знаю об этой игре, как и о второй части, то мне известно только то, что стилистикой всё похоже на рисовку Studio Ghibli.\n\nВидела геймплей совсем немного, но очень меня это заинтересовало.\n\nОбязательно будет когда-нибудь будет и обзор, и плейлист на втором канале.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/6975564-ni-no-kuni-wrath-of-the-white-witch-playstation-3-front-cover.jpg"
+  },
+  {
+    "id": 46,
+    "title": "Chaos on Deponia",
+    "authors": [
+      "Daedalic Entertainment"
+    ],
+    "platform": "PC",
+    "status": "Хочу пройти",
+    "genre": [
+      "Adventure",
+      "Головоломки",
+      "Поиск предметов",
+      "point-n-click"
+    ],
+    "score": "-/10",
+    "date_added": "2012-10-12",
+    "comment": "Вторую часть Депонии я однажды начала, но я очень плохо играла, поэтому забросила. Теперь же, думаю, можно нормально поиграть уже, и прокачивать свои мозги вновь на абсурдных квестах от Даедаликов.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/3173669-chaos-on-deponia-xbox-one-front-cover.jpg"
+  },
+  {
+    "id": 47,
+    "title": "The Witcher 2: Assassins of Kings",
+    "authors": [
+      "CD Projekt RED"
+    ],
+    "platform": "PC",
+    "status": "Хочу пройти",
+    "genre": [
+      "Фэнтези",
+      "Экшн",
+      "РПГ"
+    ],
+    "score": "-/10",
+    "date_added": "2012-04-17",
+    "comment": "У меня есть вся оригинальная трилогия Ведьмака официально, так почему бы не пройти все три части?\n\nТем более что здесь уже Геральта стал озвучивать Всеволод Борисович Кузнецов наш любимый.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/1171594-the-witcher-2-assassins-of-kings-enhanced-edition-windows-front-.jpg"
+  },
+  {
+    "id": 48,
+    "title": "LEGO Lord of the Ring",
+    "authors": [
+      "Traveller's Tales"
+    ],
+    "platform": "PC",
+    "status": "Хочу пройти",
+    "genre": [
+      "Приключение",
+      "Экшн",
+      "Головоломка",
+      "Платформер"
+    ],
+    "score": "-/10",
+    "date_added": "2012-11-27",
+    "comment": "По случайному стечению обстоятельств я успела купить эту игру в Steam практически в последний момент перед её удалением из магазина.\n\nА это означает, что мне стоит воспользоваться возможностью, и сделать по ней ролик обязательно.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/6992053-lego-the-lord-of-the-rings-playstation-3-front-cover.jpg"
+  },
+  {
+    "id": 49,
+    "title": "LEGO MARVEL Super Heroes",
+    "authors": [
+      "Traveller's Tales"
+    ],
+    "platform": "PC",
+    "status": "Хочу пройти",
+    "genre": [
+      "Приключение",
+      "Экшн",
+      "Головоломка",
+      "Платформер"
+    ],
+    "score": "-/10",
+    "date_added": "2013-10-22",
+    "comment": "Мой друг однажды показал мне эту игру, и мне она понравилась. Я, правда, никак нормально начать её не могу.\n\nНо я думаю, что как-то у меня настанет период Лего игр, и я буду все свои Лего игры проходить.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/7613007-lego-marvel-super-heroes-playstation-4-manual.jpg"
+  },
+  {
+    "id": 50,
+    "title": "Goodbye Deponia",
+    "authors": [
+      "Daedalic Entertainment"
+    ],
+    "platform": "PC",
+    "status": "Хочу пройти",
+    "genre": [
+      "Adventure",
+      "Головоломки",
+      "Поиск предметов",
+      "point-n-click"
+    ],
+    "score": "-/10",
+    "date_added": "2013-10-18",
+    "comment": "Депонию я всё не могла никак начать, но однажды как-то удалось взять себя в руки. И она далась мне сложнее обычного.\n\nПри этом я хочу всё-таки ещё раз попробовать нормально пройти игру и всю серию.\n\nНасчёт обзора не уверена, но плейлист на Лазурне игра определённо получит.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/11272961-goodbye-deponia-windows-front-cover.jpg"
+  },
+  {
+    "id": 51,
+    "title": "Deponia Doomsday",
+    "authors": [
+      "Daedalic Entertainment"
+    ],
+    "platform": "PC",
+    "status": "Хочу пройти",
+    "genre": [
+      "Adventure",
+      "Головоломки",
+      "Поиск предметов",
+      "point-n-click"
+    ],
+    "score": "-/10",
+    "date_added": "2016-03-01",
+    "comment": "Я почему то только сегодня (11 мая 2026 года) узнаю, что Депония состоит из 4-х частей.\n\nНу ладно, пройду и её, естественно.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/18726261-deponia-doomsday-windows-front-cover.png"
+  },
+  {
+    "id": 52,
+    "title": "Skyborn",
+    "authors": [
+      "Dancing Dragon Games"
+    ],
+    "platform": "PC",
+    "status": "Хочу пройти",
+    "genre": [
+      "RPG",
+      "JRPG",
+      "Steampunk",
+      "Фэнтези"
+    ],
+    "score": "-/10",
+    "date_added": "2014-02-21",
+    "comment": "Про эту игру я почти ничего не знаю, просто когда-то купила.\n\nПоследний раз запускала летом 2021 года. Ну как бы почему бы не попробовать пройти, да посмотреть, что да как.",
+    "links": [],
+    "cover": "https://cdn2.steamgriddb.com/thumb/0eb3885482a26378cd709cad094c4303.jpg"
+  },
+  {
+    "id": 53,
+    "title": "Sleeping Dogs: Definitive Edition",
+    "authors": [
+      "United Front Games",
+      "Square Enix"
+    ],
+    "platform": "PC",
+    "status": "Хочу пройти",
+    "genre": [
+      "RPG",
+      "Экшн",
+      "Открытый мир",
+      "Песочница",
+      "Шутер"
+    ],
+    "score": "-/10",
+    "date_added": "2014-10-08",
+    "comment": "Я несколько видео по игре видела как-то, и там прям рекомендуют эту игру.\n\nХочу поиграть, понять, что да как. Если прям хорошо будет, то почему бы и обзор по ней не снять.",
+    "links": [],
+    "cover": "https://cdn2.steamgriddb.com/thumb/ea8de97469924aa3b47879df2e402d56.jpg"
+  },
+  {
+    "id": 54,
+    "title": "Styx: Master of Shadows",
+    "authors": [
+      "Cyanide S.A.",
+      "Focus Home Interactive"
+    ],
+    "platform": "PC",
+    "status": "Хочу пройти",
+    "genre": [
+      "Экшн",
+      "Стелс",
+      "Фэнтези"
+    ],
+    "score": "-/10",
+    "date_added": "2014-10-07",
+    "comment": "3D паркурный стелс экшн. Я чуть чуть запускала и играла, и это в целом очень даже неплохо, но надо будет потом заняться полным прохождением.\n\nНе уверена, что буду делать обзор, но тут уже как получится.",
+    "links": [],
+    "cover": "https://shared.steamstatic.com/store_item_assets/steam/apps/242640/library_600x900_2x.jpg?t=1590686832"
+  },
+  {
+    "id": 55,
+    "title": "The Talos Principle",
+    "authors": [
+      "Croteam"
+    ],
+    "platform": "PC",
+    "status": "Хочу пройти",
+    "genre": [
+      "Экшн",
+      "Головоломка",
+      "Sci-Fi"
+    ],
+    "score": "-/10",
+    "date_added": "2014-12-11",
+    "comment": "Очень долгое время у меня в библиотеке висит эта игра от хорватских фокусников. Думаю, что стоит всё же её пройти.",
+    "links": [],
+    "cover": "https://shared.steamstatic.com/store_item_assets/steam/apps/257510/library_600x900_2x.jpg?t=1744327631"
+  },
+  {
+    "id": 56,
+    "title": "The Witcher 3: Wild Hunt",
+    "authors": [
+      "CD Projekt RED"
+    ],
+    "platform": "PC",
+    "status": "Хочу пройти",
+    "genre": [
+      "Фэнтези",
+      "Экшн",
+      "РПГ"
+    ],
+    "score": "-/10",
+    "date_added": "2015-05-19",
+    "comment": "Я в целом уже всё писала у первого и второго ведьмака.\n\nЕдинственное, что заметила, так это то, что возможно такое, что на контроллере её играть будет круче, чем на клавомыши. Такое вот у меня случилось с GTA. На контроллере играть интереснее, чем на клавомыши.",
+    "links": [],
+    "cover": "https://shared.steamstatic.com/store_item_assets/steam/apps/292030/fe26986a2bd1601004ef0e4e1dfadd02948e3897/library_600x900_2x.jpg?t=1755527653"
+  },
+  {
+    "id": 57,
+    "title": "Fallout 4",
+    "authors": [
+      "Bethesda"
+    ],
+    "platform": "PC",
+    "status": "Хочу пройти",
+    "genre": [
+      "RPG",
+      "Экшн",
+      "Открытый Мир",
+      "Песочница",
+      "Sci-Fi",
+      "Action RPG",
+      "Постапокалипс"
+    ],
+    "score": "-/10",
+    "date_added": "2015-11-10",
+    "comment": "Четвёртый фолыч довольно интересный, но мне даётся прохождение более вяло, поэтому я всё никак не могу начать нормально и полностью проходить его.\n\nНо надо же будет когда-нибудь начать.",
+    "links": [],
+    "cover": "https://shared.steamstatic.com/store_item_assets/steam/apps/377160/library_600x900_2x.jpg?t=1762798733"
+  },
+  {
+    "id": 58,
+    "title": "Just Cause 3",
+    "authors": [
+      "Avalanche Studios"
+    ],
+    "platform": "PC",
+    "status": "Хочу пройти",
+    "genre": [
+      "Экшн",
+      "Открытый Мир",
+      "Песочница",
+      "Шутер"
+    ],
+    "score": "-/10",
+    "date_added": "2015-11-30",
+    "comment": "Это единственная игра из серии Just Cause, и я не могу определиться, буду ли я играть, или нет. Пока не знаю, к сожалению.",
+    "links": [],
+    "cover": "https://shared.steamstatic.com/store_item_assets/steam/apps/225540/library_600x900_2x.jpg?t=1724751457"
+  },
+  {
+    "id": 59,
+    "title": "Dead Island: Riptide - Definitive Edition",
+    "authors": [
+      "Techland"
+    ],
+    "platform": "PC",
+    "status": "Хочу пройти",
+    "genre": [
+      "RPG",
+      "Экшн",
+      "Зомби",
+      "Хоррор"
+    ],
+    "score": "-/10",
+    "date_added": "2016-05-31",
+    "comment": "Продолжение. Очень хорошее. Буду и её проходить.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/2412278-dead-island-riptide-definitive-edition-xbox-one-front-cover.png"
+  },
+  {
+    "id": 60,
+    "title": "Stardew Valley",
+    "authors": [
+      "ConcernedApe"
+    ],
+    "platform": "PC",
+    "status": "Хочу пройти",
+    "genre": [
+      "RPG",
+      "Симулятор",
+      "Уютность"
+    ],
+    "score": "-/10",
+    "date_added": "2016-02-26",
+    "comment": "Это очень милая и уютная игра про свою ферму, про просто жизнь. Я несколько раз начинала проходить, но было это не очень. Но надо себя взять в руки и нормально начать проходить.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/7453765-stardew-valley-playstation-4-front-cover.jpg"
+  },
+  {
+    "id": 61,
+    "title": "Unreal Gold",
+    "authors": [
+      "Epic Games"
+    ],
+    "platform": "PC",
+    "status": "Заброшено",
+    "genre": [
+      "Sci-Fi",
+      "Экшн",
+      "Шутер"
+    ],
+    "score": "-/10",
+    "date_added": "1999-05-31",
+    "comment": "Я несколько раз пыталась начать проходить Unreal Gold, и каждый раз это даётся мне с трудом. Не в плане сложности, а в плане того, что что-то меня отталкивает в этой игре, но я не могу понять, что именно.\n\nЯ думаю, что как-нибудь всё же сделаю видео по этой игре, но это мне будет даваться с трудом.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/4055804-unreal-gold-windows-front-cover.jpg"
+  },
+  {
+    "id": 62,
+    "title": "Recettear: An Item Shop's Tale",
+    "authors": [
+      "EasyGameStation"
+    ],
+    "platform": "PC",
+    "status": "Заброшено",
+    "genre": [
+      "Экшн",
+      "Симулятор",
+      "RPG",
+      "Фэнтези"
+    ],
+    "score": "6.0/10",
+    "date_added": "2009-10-29",
+    "comment": "Я несколько раз пыталась играть, но пока не могу определиться, хочу я её играть, или нет.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/6335570-recettear-an-item-shops-tale-windows-front-cover.jpg"
+  },
+  {
+    "id": 63,
+    "title": "Bendy and the Ink Machine",
+    "authors": [
+      "Kindly Beast"
+    ],
+    "platform": "PC",
+    "status": "Заброшено",
+    "genre": [
+      "Экшн",
+      "Головоломка",
+      "Хоррор"
+    ],
+    "score": "-/10",
+    "date_added": "2018-10-26",
+    "comment": "Ну вот вроде и нормальный хоррор, но я чувствую, что вот не моё вообще. Вот никак у меня не клеится с этой игрой ничего.",
+    "links": [],
+    "cover": "https://cdn.mobygames.com/covers/7288998-bendy-and-the-ink-machine-playstation-4-front-cover.png"
+  }
+]
